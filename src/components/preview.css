@@ -1,0 +1,149 @@
+p {
+    margin: 0;
+}
+.preview-panel {
+    width: 30%;
+    background-color: rgb(0, 160, 120);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+.preview-panel-name-box {
+    width: 100%;
+    display: flex;
+}
+
+.preview-panel-name {
+    margin: auto;
+    font-size: 45px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    height: 45px;
+    cursor: pointer;
+}
+
+.preview-panel-name:hover {
+    background: #c0c0c070;
+}
+
+.preview-panel-name-edit {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #c0c0c070;
+    margin: 0;
+    padding: 7px 0 0 0;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial;
+    height: 45px;
+}
+
+.preview-panel-details {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+    text-align: end;
+}
+.preview-panel-details-text-box {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.preview-panel-details-text {
+    width: 100%;
+    padding: 0 1rem 0 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 13px;
+    text-align: end;
+    cursor: pointer;
+}
+.preview-panel-details-text:hover {
+    background: #c0c0c070;
+}
+.preview-panel-details-text-box form {
+    width: 100%;
+    height: 1.5rem;
+}
+.preview-panel-details-text-edit {
+    height: 1.5rem;
+    width: 100%;
+    color: white;
+    padding: 0 1rem 0 0;
+    background: #c0c0c070;
+    text-align: end;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0;
+}
+
+.preview-main {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-main-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #704E2E;
+    border-top: 2px solid #704E2E;
+    border-bottom: 2px solid #704E2E;
+    margin: 0 2rem 1rem 2rem;
+    text-align: center;
+}
+
+.preview-main-about-box {
+    height: 30%;
+}
+.preview-main-about {
+    font-size: 1rem;
+    height: 100%;
+    cursor: pointer;
+    padding: 0.1rem;
+}
+.preview-main-about:hover {
+    background-color: rgb(189, 189, 189);
+}
+.preview-main-about-box form {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.preview-main-about-edit {
+    width: 100%;
+    background: none;
+    height: 8rem;
+    border: 0;
+    resize: none;
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: 'Segoe UI';
+    height: 100%;
+    padding: 0.1rem;
+}
+
+.preview-panel-details span {
+    margin: 0 1rem 0 1rem;
+    box-sizing: content-box;
+    font-weight: bold;
+    user-select: none;
+}
