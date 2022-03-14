@@ -3,6 +3,7 @@ import './preview.css';
 import Name from './Name';
 import Details from './Details';
 import Text from './Text';
+import List from './List';
 
 class Preview extends Component {
     constructor(props) {
@@ -23,6 +24,11 @@ class Preview extends Component {
                 <div className='preview-main'>
                     <span className='preview-main-title'>About Me</span>
                     <Text defaultName={lorem} type='textarea' className='preview-main-about' />
+                    <span className='preview-main-title'>Education</span>
+                    <List context="education" />
+                    
+                    <span className='preview-main-title'>Experience</span>
+                    <List context="experience" />
                 </div>
             </div>
         );
